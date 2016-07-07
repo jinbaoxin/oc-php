@@ -1,6 +1,11 @@
 
-<h1>Welcome to OpenShift Version 3 !! on
-<?php
-echo gethostname(); // may output e.g,: sandie
-?>
-</h1>
+<html>
+<body>
+  <h1>Welcome to OpenShift Version 3 !! on
+  <?php
+    echo gethostname(); 
+  ?>
+  </h1>
+  <h2> Version 1</h2>
+</body>
+</html>
