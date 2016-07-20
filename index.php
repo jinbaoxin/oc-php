@@ -1,7 +1,7 @@
 
 <html>
 <body>
-  <h1>Welcome to OpenShift Version 3.2 !! on
+  <h1>Welcome to OpenShift Version 3.2.1 !! on
   <?php
     echo gethostname(); 
   ?>
