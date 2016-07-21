@@ -1,11 +1,10 @@
 
 <html>
 <body>
-  <h1>Welcome to OpenShift Version 3.2.1 !! on
+
   <?php
-    echo gethostname(); 
+    echo "My Host Name ".gethostname(); 
   ?>
-  </h1>
   <h2> Version 1</h2>
 </body>
 </html>
