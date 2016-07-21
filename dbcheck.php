@@ -9,7 +9,8 @@ $conn = new mysqli($servername, $username, $password);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
-    $db_selected = mysql_select_db($_ENV['MYSQL_DATABASE'], $conn);
+    mysql_select_db($_ENV['MYSQL_DATABASE'], $conn);
+    print_r(mysql_fetch_assoc(mysql_query("select * from emails")));
 } 
 
 echo "Connected successfully";
