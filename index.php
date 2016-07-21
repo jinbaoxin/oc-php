@@ -4,8 +4,10 @@
         
         
   <?php
-    echo "My Host Name ".gethostname(); 
+    echo "My Host Name ".gethostname(). " App version 1"
   ?>
-  <h2> Version 1</h2>
+  
+  
+  
 </body>
 </html>
