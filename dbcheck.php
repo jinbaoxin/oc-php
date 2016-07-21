@@ -1,6 +1,6 @@
 <?php
 $servername = $_ENV['MYSQL_SERVICE_HOST'];
-$username = $_ENV['MYSQL_USER'];
+$username = $_ENV['MYSQL_USERNAME'];
 $password = $_ENV['MYSQL_PASSWORD'];
 
 // Create connection
