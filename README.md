@@ -5,7 +5,7 @@
 `oc new-project php-example`
 
 #### Create new php application using source 2 image process
-`oc new-app php:5.6~https://github.com/debianmaster/php-welcome --name=myphp`   
+`oc new-build php:5.6~https://github.com/debianmaster/php-welcome --name=myphp`   
 > i.e.  create an application image with php:5.6 as base and source code provided in git repo 
 
 #### Create a pipe line Piepiline example 
@@ -17,7 +17,6 @@ apiVersion: v1
 kind: BuildConfig
 metadata:
   name: sample-pipeline
-  namespace: myproject
   labels:
     app: jenkins-pipeline-example
     name: sample-pipeline
