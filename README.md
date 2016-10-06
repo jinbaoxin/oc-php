@@ -9,8 +9,10 @@
 > i.e.  create an application image with php:5.6 as base and source code provided in git repo 
 
 #### Create a pipe line Piepiline example 
-`oc new-app jenkins-ephemeral`  #Create jenkins instance in your project if not created already.
-`oc create -f sample-pipeline.yml -n php-example`   
+```sh
+oc new-app jenkins-ephemeral  #Create jenkins instance in your project if not created already.
+oc create -f sample-pipeline.yml -n php-example   
+```
 
 ```yml
 apiVersion: v1
