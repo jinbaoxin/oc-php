@@ -1,3 +1,3 @@
-FROM php:5.6-apache
+FROM registry.access.redhat.com/rhscl/php-56-rhel7
 COPY . /var/www/html/
 
