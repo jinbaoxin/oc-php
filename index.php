@@ -1,3 +1,3 @@
   <?php
-    echo "My newestd Host Name ".gethostname(). " App version 3 \n";
+    echo "My new today Host Name ".gethostname(). " App version 3 \n";
   ?>
