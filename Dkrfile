@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/rhscl/php-56-rhel7
+FROM FROM tutum/apache-php
 COPY . /var/www/html/
 CMD ["httpd","-D","FOREGROUND"]
 
